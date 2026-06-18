@@ -1,0 +1,69 @@
+As established in your design, this is an interactive dialogue with the environment itself. The house acts as a psychological mirror, whispering the traveler's past regrets. No matter how the player tries to cope with the voices, the conversation breaks their spirit and forces them back onto the road.
+
+Dialogue Mechanics Reference (For GameMaker Setup)
+Trigger: The player stands still inside obj_house_1 for 10 seconds, or presses the interaction key while standing next to obj_soup_bowls.
+
+Visual Shift: The amber lighting from the fireplace slowly shifts to a cold, unnatural blue. The edges of the screen vignette with dark shadows.
+
+Audio Shift: The warm crackling of the fire fades out completely. A low, layered whispering sound (using panning to sound like it's coming from behind the player) begins to loop.
+
+🏚️ The Conversation Tree: The Whispering Walls
+[START]
+
+The House (Whisper):
+"Look at the steam rising from the bowls, traveler. It smells just like the kitchen you burned down to get here."
+
+Player:
+The wooden floorboards creak, though you haven't moved an inch.
+
+The House (Whisper):
+"You think if you walk far enough, the distance will wash the ash from your hands? We remember the screams you left behind. We remember why you couldn't stay."
+
+🔀 THE CHOICE POINT
+(The game pauses, giving the player three distinct ways to handle the psychological pressure.)
+
+Choice A [Guilt / Apology]: "I didn't mean for it to happen... I had no choice."
+
+Choice B [Anger / Denial]: "Be quiet! You aren't real. You're just a trick of the road."
+
+Choice C [Despair / Begging]: "Please... stop. Just let me rest for one night."
+
+🛤️ BRANCHING RESPONSES (The Illusion)
+If the player chose A [Guilt / Apology]:
+The House (Whisper): (The whispering sounds like multiple voices overlapping in a distorted chuckle.)
+"Ah, 'no choice.' The ancient currency of the coward. You offer your excuses to the walls, but walls cannot grant absolution. If you truly had no choice, your feet wouldn't be bleeding from the running."
+
+(Funnels to [THE MERGE POINT])
+
+If the player chose B [Anger / Denial]:
+The House (Whisper): (The ambient blue fire in the hearth flares up aggressively.)
+"A trick? If we are a trick, why is your heart beating like a trapped bird? You can close your eyes, you can cover your ears, but you cannot scream loud enough to drown out the architecture of your own mind."
+
+(Funnels to [THE MERGE POINT])
+
+If the player chose C [Despair / Begging]:
+The House (Whisper): (The audio lowers into a cold, mocking hiss.)
+"Rest? There is no rest in this valley. Rest requires a clear conscience, and yours is buried three hundred miles back. The moment you close your eyes, the smoke will fill your lungs again."
+
+(Funnels to [THE MERGE POINT])
+
+🔄 [THE MERGE POINT]
+The House (Whisper):
+"The soup will stay warm forever. The fire will never go out. But you cannot stay here."
+
+Player:
+"..."
+
+The House (Whisper):
+"The walls are closing in, traveler. The past is rising through the floorboards. Step outside. The shadow on the horizon is waiting for you."
+
+🎬 THE EVENT TRIGGER (Cinematic Script)
+Action: The dialogue box closes violently.
+
+Visual: The screen suddenly shakes, and a graphic effect mimicking smoke or shadows begins to creep inward from the corners of the room.
+
+Gameplay Penalty: The player's health or sanity meter (if you have one) begins to tick down, or the player character is automatically forced into a "jogging" animation toward the exit door. The player cannot move deeper into the house; the inputs will only allow them to walk out the front door.
+
+Transition: The moment the player crosses the threshold back onto the dirt road, the front door slams shut with a deafening THUD. The amber light returns to the windows, and the whispering cuts to absolute silence.
+
+Far down the road, the Distant Figure is standing under the purple sky, waiting.
