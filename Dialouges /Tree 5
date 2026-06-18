@@ -1,0 +1,65 @@
+This is the emotional and psychological climax of your game. The dialogue box is no longer labeled with a name like "Old Man" or "The House"—it is simply labeled [Myself], representing the player's ultimate realization.
+
+The final choice between turning back or continuing forward is presented seamlessly within the dialogue system, just like the illusions of choice before it—except this time, the choice alters the universe itself.
+
+Dialogue Mechanics Reference (For GameMaker Setup)
+Trigger: The player walks up to the broken signpost reading "ROME – Not Here" and stands within arm's reach of the motionless Shadowy Figure.
+
+Visual Shift: The screen's camera slowly tracks around to view the character from the front. The Shadowy Figure mirrors this shift perfectly, its outline blending into the thick grey fog. The music fades to absolute, dead silence. The only sound is the low, cold wind of the void.
+
+🌫️ The Final Act: Confronting the Shadow
+[START]
+
+[Myself]:
+"There is no city."
+
+[Myself]:
+"No walls. No gates. No people. Just a rusted post in the dirt and a sky made of ash."
+
+[Myself]:
+"Look at the shape standing in front of you. Look at how it lifts its hand exactly when you lift yours. It has been one hundred paces ahead since the very first night."
+
+[Myself]:
+"The road didn’t lead to Rome. Rome was just the lie you told your feet so they would keep moving. It was the excuse."
+
+[Myself]:
+"You didn’t build this road to go somewhere. You built it because as long as you were walking, you could pretend the things you left behind weren't gaining on you. You ran from the grief. You ran from the guilt. You ran until you emptied yourself completely."
+
+[Myself]:
+"Now, the road ends. The miles have run out. You are finally standing still. There is nowhere left to hide from what you are."
+
+⚖️ THE FINAL CHOICE
+(The screen fades slightly darker. The UI changes color from the standard white text box to a stark, high-contrast overlay. Two options appear on the screen. This is not an illusion; this is the end.)
+
+Choice A [Turn Back]: "Face the darkness. Look at what I left behind."
+
+Choice B [Keep Walking]: "Step into the shadow. Keep the horizon forever."
+
+🎬 THE ENDING CINEMATICS (Script & Audio)
+If the player chooses [Turn Back]:
+Action: The dialogue box closes. The player character slowly lowers their head, then turns completely around to face the bottom of the screen (the way they came).
+
+Audio: A deep, tectonic rumbling sound starts low and builds. The wind stops.
+
+Visual Collapse: The grey fog behind the player instantly turns into a heavy, suffocating, pitch-black darkness. As the player takes their first step backward, the dirt path at the top of the screen cracks, shatters, and falls into a bottomless void. The road is actively collapsing behind them, forcing them into the dark reality of their past.
+
+Final Text (Fades onto a black screen):
+
+"The road is gone. The illusion has shattered. The world ahead is dark, cold, and heavy with everything you ran from... but it is real. You are finally standing still."
+
+Credits Roll.
+
+If the player chooses [Keep Walking]:
+Action: The dialogue box closes. The player character takes a slow, heavy step forward, walking directly into the Shadowy Figure.
+
+Visual Merge: The two silhouettes overlap and blend together into a single, featureless dark shape.
+
+Camera Shift: The camera smoothly detaches from the player and moves backward, panning down the road. The player character is now positioned at the top of the screen, completely frozen, staring out into the endless, empty white fog.
+
+The Loop: From the bottom of the screen, a new silhouetted traveler walks into view. Their boots are muddy, their cloak is ragged, and their head is bowed. They take a few steps, then suddenly stop—looking up at your character standing on the horizon.
+
+Final Text (Fades onto a grey screen):
+
+"The road stretches forever. The march never ends. You have surrendered your name, your face, and your past to the dirt. You have become the distance. You are the figure another traveler sees."
+
+Credits Roll.
