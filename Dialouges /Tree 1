@@ -1,3 +1,12 @@
+To create the illusion of choice, the player is given three distinct emotional tones to choose from (Defiance, Confusion, or Avoidance). The Old Man handles them with different tailored responses, but seamlessly funnels them back to the exact same haunting realization as the entrance behind them vanishes.
+
+Dialogue Mechanics Reference (For GameMaker Setup)
+Trigger: Player steps within a 32-pixel radius of obj_old_man and presses the interaction key (Space or E).
+
+Camera: Smoothly zooms in slightly, locking player movement.
+
+Audio: The ambient road wind drops by 50%. A low, unsettling drone begins to play.
+
 🌳 The Conversation Tree: The Threshold Warning
 [START]
 Old Man:
