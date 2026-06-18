@@ -1,0 +1,8 @@
+The saving mechanism and replay mechanism is supposed to be like Limbo or Inside, except for the different chapters
+We need to save before every puzzle, and also after every conversation
+We want to give player a pause menu
+The pause menu will have option to resume, return to main menu
+Main menu will have option to continue game, new game or quit
+We can also add help section and settings on main menu and pause menu
+Help section will list all the controls used in the gameplay
+Settings will have the option to control the sound and brightness
